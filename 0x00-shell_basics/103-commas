@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | sed -e 's/\(.*\/\)/\1\//' | sort -t/ -k2,2n -k1,1
+ls -map
